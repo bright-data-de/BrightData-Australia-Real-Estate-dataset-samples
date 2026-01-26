@@ -1,89 +1,89 @@
-# Australia Real Estate Dataset Sample
+# Australien-Immobilien-Datensatz-Sample
 
-<h2>A sample dataset of 1,000 records</h2>
+<h2>Ein Beispiel-Datensatz mit 1.000 Datensätzen</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.de">
     <img src="https://github.com/luminati-io/BrightData-Australia-Real-Estate-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Australia Real Estate Dataset Sample** includes **1,000 records** and was extracted using the **Bright Data API**.
+Dieses **Australien-Immobilien-Datensatz-Sample** umfasst **1.000 Datensätze** und wurde mithilfe der **Bright Data API** extrahiert.
 
-## Data Points
+## Datenpunkte
 
-| Field Name | Description |
+| Feldname | Beschreibung |
 |------------|-------------|
-| `rea_property_id` | Unique identifier for the property listing. |
-| `property_type` | Type of property, such as House, Unit, or Apartment. |
-| `state` | Australian state where the property is located. |
-| `postcode` | Postal code of the property's location. |
-| `year_built` | Year the property was constructed. |
-| `last_sold_date` | Date when the property was last sold. |
-| `last_sold_agency` | Real estate agency that last sold the property. |
-| `bedrooms` | Number of bedrooms in the property. |
-| `bathrooms` | Number of bathrooms in the property. |
-| `findAgentsURI` | URL to find agents related to the property listing. |
-| `floor_area` | Total floor area of the property. |
-| `fullSuburb` | Full name of the suburb where the property is located. |
-| `house_type` | Specific type of house, indicating structural characteristics. |
-| `lat` | Latitude coordinate of the property's location. |
-| `lon` | Longitude coordinate of the property's location. |
-| `photo_count` | Number of photos available for the property listing. |
-| `images_urls` | URLs of images associated with the property listing. |
-| `street_address` | Street address of the property. |
-| `suburb` | Suburb where the property is located. |
-| `url` | URL to the property's online listing. |
-| `land_size` | Size of the land on which the property is situated. |
-| `sales_history` | Historical sales data of the property. |
-| `land_size_num` | Numerical value of the land size. |
-| `land_size_unit` | Unit of measurement for the land size. |
-| `floor_area_num` | Numerical value of the floor area. |
-| `avm_estimate_lastUpdated` | Date when the automated valuation model was last updated. |
-| `estimated_price` | Estimated market price of the property. |
-| `estimated_price_confidence` | Confidence level in the estimated price value. |
-| `estimated_value` | Calculated value of the property based on various factors. |
-| `estimated_value_high` | High range of the estimated property value. |
-| `estimated_value_low` | Low range of the estimated property value. |
-| `offMarket` | Indicates whether the property is currently off the market. |
-| `parking` | Details about parking availability at the property. |
-| `listing_type` | Type of listing, such as sale or rent. |
-| `availability` | Current availability status of the property. |
-| `rent_price` | Price at which the property is available for rent. |
-| `rent_currency` | Currency in which the rent price is denominated. |
-| `rent_bond` | Bond amount required for renting the property. |
-| `sold_date` | Official date when the property was sold. |
-| `property_history_link` | Link to the property's historical data. |
-| `description` | Detailed description of the property listing. |
-| `agents` | Information about the agents managing the property listing. |
-| `branding` | Branding information related to the property listing. |
-| `listed_at` | Date when the property was listed on the market. |
+| `rea_property_id` | Eindeutiger Identifikator für das Immobilieninserat. |
+| `property_type` | Art der Immobilie, z. B. House, Unit oder Apartment. |
+| `state` | Australischer Bundesstaat, in dem sich die Immobilie befindet. |
+| `postcode` | Postleitzahl des Standorts der Immobilie. |
+| `year_built` | Baujahr der Immobilie. |
+| `last_sold_date` | Datum, an dem die Immobilie zuletzt verkauft wurde. |
+| `last_sold_agency` | Immobilienagentur, die die Immobilie zuletzt verkauft hat. |
+| `bedrooms` | Anzahl der Schlafzimmer in der Immobilie. |
+| `bathrooms` | Anzahl der Badezimmer in der Immobilie. |
+| `findAgentsURI` | URL zum Finden von Agenten, die mit dem Immobilieninserat in Verbindung stehen. |
+| `floor_area` | Gesamte Wohn-/Nutzfläche der Immobilie. |
+| `fullSuburb` | Vollständiger Name des Vororts, in dem sich die Immobilie befindet. |
+| `house_type` | Spezifischer Haustyp, der strukturelle Merkmale angibt. |
+| `lat` | Breitengrad-Koordinate des Standorts der Immobilie. |
+| `lon` | Längengrad-Koordinate des Standorts der Immobilie. |
+| `photo_count` | Anzahl der für das Immobilieninserat verfügbaren Fotos. |
+| `images_urls` | URLs der Bilder, die dem Immobilieninserat zugeordnet sind. |
+| `street_address` | Straßenadresse der Immobilie. |
+| `suburb` | Vorort, in dem sich die Immobilie befindet. |
+| `url` | URL zum Online-Inserat der Immobilie. |
+| `land_size` | Größe des Grundstücks, auf dem sich die Immobilie befindet. |
+| `sales_history` | Historische Verkaufsdaten der Immobilie. |
+| `land_size_num` | Numerischer Wert der Grundstücksgröße. |
+| `land_size_unit` | Maßeinheit für die Grundstücksgröße. |
+| `floor_area_num` | Numerischer Wert der Fläche. |
+| `avm_estimate_lastUpdated` | Datum, an dem das automatisierte Bewertungsmodell zuletzt aktualisiert wurde. |
+| `estimated_price` | Geschätzter Marktpreis der Immobilie. |
+| `estimated_price_confidence` | Vertrauensniveau in den geschätzten Preiswert. |
+| `estimated_value` | Berechneter Wert der Immobilie basierend auf verschiedenen Faktoren. |
+| `estimated_value_high` | Oberer Bereich des geschätzten Immobilienwerts. |
+| `estimated_value_low` | Unterer Bereich des geschätzten Immobilienwerts. |
+| `offMarket` | Gibt an, ob die Immobilie derzeit nicht auf dem Markt ist. |
+| `parking` | Details zur Parkplatzverfügbarkeit bei der Immobilie. |
+| `listing_type` | Art des Inserats, z. B. Verkauf oder Miete. |
+| `availability` | Aktueller Verfügbarkeitsstatus der Immobilie. |
+| `rent_price` | Preis, zu dem die Immobilie zur Miete angeboten wird. |
+| `rent_currency` | Währung, in der der Mietpreis angegeben ist. |
+| `rent_bond` | Kautionsbetrag, der für die Anmietung der Immobilie erforderlich ist. |
+| `sold_date` | Offizielles Datum, an dem die Immobilie verkauft wurde. |
+| `property_history_link` | Link zu den historischen Daten der Immobilie. |
+| `description` | Detaillierte Beschreibung des Immobilieninserats. |
+| `agents` | Informationen über die Agenten, die das Immobilieninserat betreuen. |
+| `branding` | Branding-Informationen im Zusammenhang mit dem Immobilieninserat. |
+| `listed_at` | Datum, an dem die Immobilie auf dem Markt gelistet wurde. |
 
 
-## Use Cases
+## Anwendungsfälle
 
-### 1. Market Trend Analysis
-Utilize the dataset to identify and forecast trends in the Australian real estate market, aiding investment strategies and policy-making.
+### 1. Markttrendanalyse
+Nutzen Sie den Datensatz, um Trends auf dem australischen Immobilienmarkt zu identifizieren und vorherzusagen und damit Investitionsstrategien sowie politische Entscheidungsfindung zu unterstützen.
 
-### 2. Property Valuation Models
-Develop machine learning models to predict property values based on various factors, enhancing appraisal accuracy for real estate professionals.
+### 2. Modelle zur Immobilienbewertung
+Entwickeln Sie Machine-Learning-Modelle, um Immobilienwerte anhand verschiedener Faktoren vorherzusagen und so die Bewertungsgenauigkeit für Immobilienfachleute zu verbessern.
 
-### 3. Competitive Landscape Evaluation
-Analyze competitor activities and strategies by examining agency sales data, helping real estate businesses improve their market positioning.
+### 3. Bewertung der Wettbewerbssituation
+Analysieren Sie Aktivitäten und Strategien von Wettbewerbern, indem Sie Agentur-Verkaufsdaten untersuchen, und helfen Sie Immobilienunternehmen dabei, ihre Marktpositionierung zu verbessern.
 
 
 
-## File Formats
+## Dateiformate
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+Der Datensatz ist in mehreren Formaten verfügbar:
+- **CSV** (in diesem Sample enthalten)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
 - **Compressed (.gz)**
 
-## Delivery Options
+## Bereitstellungsoptionen
 
-- **Email**
+- **E-Mail**
 - **API Download**
 - **Webhook**
 - **Amazon S3**
@@ -92,26 +92,26 @@ The dataset is available in multiple formats:
 - **Snowflake**
 - **SFTP**
 
-## Update Frequency
+## Aktualisierungsfrequenz
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+Datensätze können nach verschiedenen Zeitplänen aktualisiert werden:
+- **Once** (einmalige Bereitstellung)
 - **Daily**
 - **Weekly**
 - **Monthly**
 - **Quarterly**
 - **Custom schedules**
 
-## Data Enrichment
+## Datenanreicherung
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+Erweitern Sie Ihren Datensatz mit zusätzlichen Datenpunkten basierend auf Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Anreicherungsoptionen.
 
-**[Get the full Australia Real Estate dataset](https://brightdata.com/products/datasets/real-estate)**
+**[Holen Sie sich den vollständigen Australien-Immobilien-Datensatz](https://brightdata.de/products/datasets/real-estate)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## Kostenloser Zugang für Forschende und NGOs
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Die Bright Initiative bietet akademischen Forschenden, NGOs und NPOs, die an Umwelt- und Sozialthemen arbeiten, kostenlosen Zugang zu **[Web Scraper APIs](https://brightdata.de/products/web-scraper)** und **[einsatzbereiten Datensätzen](https://brightdata.de/products/datasets)**. 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+Beantragen Sie kostenlosen Zugang unter [brightinitiative.com](https://brightinitiative.com).
